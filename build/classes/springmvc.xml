@@ -16,6 +16,11 @@
 
 <!-- deploy handlerAdaptor -->
 <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
+<!-- deploy handler -->
+<bean name = "/queryItems.action" class= "Controller.ItemsController"/>
+<!-- deploy handlerMapping -->
+<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping" />
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
 </beans>
 
 
