@@ -20,8 +20,9 @@
 
 
 <!-- deploy handler -->
-<!-- <context:component-scan base-package="Controller"></context:component-scan> -->
-<bean class="Controller.ItemsControllerInnotation"></bean>
+<context:component-scan base-package="com.mySpringMVC.controller"></context:component-scan>
+<!-- <bean class="com.mySpringMVC.controller.ItemsControllerInnotation"></bean> -->
+
 <!-- deploy handlerMapping -->
 <!-- deploy handlerAdaptor -->
 <!-- <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/> -->
